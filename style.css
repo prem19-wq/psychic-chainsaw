@@ -46,3 +46,49 @@
             position: fixed;
             left: 160px;
         }
+        .display
+        {
+            display: block;
+        }
+        .inline
+        {
+            display: block;
+        }
+        .flex-container
+        {
+            display: flex;
+            justify-content: baseline;
+            height: 100vh;
+            padding: 15px;
+        }
+        .items
+        {
+            
+            height: 100px;
+            width: 100px;
+        }
+        .flex-container div
+        {
+            height: 100px;
+            width: 100px;
+        }
+        .two
+        {
+            flex-shrink: 0;
+        }
+        .grid-container
+        {
+            display: grid;
+            grid-template-rows: 50px 50px;
+            grid-template-columns: 50px 50px 50px;
+            row-gap: 100px;
+            column-gap: 100px;
+        }
+        .grid-container
+        div
+        {
+            border: 2px solid purple;
+        }
+        
+
+        
