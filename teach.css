@@ -1,0 +1,38 @@
+  .flex-container
+  {
+      display: flex;
+      justify-content: space-evenly;
+      height: 10vh;
+      padding: 15px;
+
+        }
+.one
+{
+    position: relative;
+    left: -180px;
+}
+.zero
+{
+    display: flex;
+
+
+}
+
+.flex-container div
+        {
+            height: 100px;
+            width: 100px;
+        }
+    
+        
+            
+        
+        .car
+        {
+            display: flex;
+        }
+        .section2
+        {
+            position: relative;
+            left: 500px;
+        }
