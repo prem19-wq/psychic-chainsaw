@@ -96,6 +96,14 @@
             grid-row-start: 2;
             grid-row-end: 4;
         }
+        @media (max-width:468px)
+        {
+            .flex-container{
+                display: flex;
+                flex-direction: column;
+                color: aqua;
+            }
+        }
         
 
         
